@@ -7,8 +7,8 @@ package ppt.dos;
 public class Equals {
     public static void main(String[] args) {
 
-        Double i1 = 8d;
-        Double i2 = 8d;
+        String i1 = new String("Hola");
+        String i2 = new String("Hola");
         System.out.println(i1.getClass() + "" + i1.hashCode());
         System.out.println(i2.getClass() + "" + i2.hashCode());
         //i1=i2;
